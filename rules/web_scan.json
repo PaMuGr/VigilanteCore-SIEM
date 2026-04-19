@@ -1,0 +1,10 @@
+{
+    "rule_id": "WEB-001",
+    "name": "Web Directory Scanning",
+    "description": "Detects 404 errors indicating directory bruteforcing",
+    "severity": "MEDIUM",
+    "conditions": {
+        "service": "web",
+        "event_type": "web_not_found"
+    }
+}

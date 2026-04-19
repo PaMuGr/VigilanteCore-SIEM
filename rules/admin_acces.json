@@ -1,0 +1,10 @@
+{
+    "rule_id": "SSH-002",
+    "name": "Successful SSH Login",
+    "description": "Detects a successful SSH authentication",
+    "severity": "INFO",
+    "conditions": {
+        "service": "sshd",
+        "event_type": "successful_login"
+    }
+}

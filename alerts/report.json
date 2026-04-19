@@ -1,0 +1,112 @@
+[
+    {
+        "timestamp": "2026-04-19 19:55:07",
+        "rule": "Successful SSH Login",
+        "severity": "INFO",
+        "attacker_ip": "10.0.0.5",
+        "service": "sshd",
+        "details": "Accepted password for admin from 10.0.0.5 port 22 ssh2"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:07",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "192.168.1.50",
+        "service": "sshd",
+        "details": "Failed password for root from 192.168.1.50 port 54321 ssh2"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:07",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "192.168.1.50",
+        "service": "sshd",
+        "details": "Failed password for root from 192.168.1.50 port 54322 ssh2"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:07",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "192.168.1.50",
+        "service": "sshd",
+        "details": "Failed password for root from 192.168.1.50 port 54323 ssh2"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:08",
+        "rule": "CRITICAL_THRESHOLD_REACHED",
+        "severity": "CRITICAL",
+        "attacker_ip": "192.168.1.50",
+        "reputation": "0% Abuse Confidence Score (Country: None)",
+        "total_events": 3,
+        "firewall_blocked": false,
+        "action_recommended": "BLOCK_IP_IMMEDIATELY"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:08",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "185.220.101.10",
+        "service": "sshd",
+        "details": "Failed password for invalid user bob from 185.220.101.10 port 4000"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:08",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "185.220.101.10",
+        "service": "sshd",
+        "details": "Failed password for invalid user bob from 185.220.101.10 port 4001"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:08",
+        "rule": "Web Directory Scanning",
+        "severity": "MEDIUM",
+        "attacker_ip": "185.220.101.10",
+        "service": "web",
+        "details": "N/A"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:09",
+        "rule": "CRITICAL_THRESHOLD_REACHED",
+        "severity": "CRITICAL",
+        "attacker_ip": "185.220.101.10",
+        "reputation": "100% Abuse Confidence Score (Country: DE)",
+        "total_events": 3,
+        "firewall_blocked": false,
+        "action_recommended": "BLOCK_IP_IMMEDIATELY"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:09",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "192.168.1.15",
+        "service": "sshd",
+        "details": "Failed password for root from 192.168.1.15 port 22 ssh2"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:09",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "192.168.1.15",
+        "service": "sshd",
+        "details": "Failed password for root from 192.168.1.15 port 22 ssh2"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:09",
+        "rule": "Failed SSH Login",
+        "severity": "LOW",
+        "attacker_ip": "192.168.1.15",
+        "service": "sshd",
+        "details": "Failed password for root from 192.168.1.15 port 22 ssh2"
+    },
+    {
+        "timestamp": "2026-04-19 19:55:10",
+        "rule": "CRITICAL_THRESHOLD_REACHED",
+        "severity": "CRITICAL",
+        "attacker_ip": "192.168.1.15",
+        "reputation": "0% Abuse Confidence Score (Country: None)",
+        "total_events": 3,
+        "firewall_blocked": false,
+        "action_recommended": "BLOCK_IP_IMMEDIATELY"
+    }
+]

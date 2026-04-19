@@ -1,0 +1,10 @@
+{
+    "rule_id": "SSH-001",
+    "name": "Failed SSH Login",
+    "description": "Detects a single failed SSH login attempt",
+    "severity": "LOW",
+    "conditions": {
+        "service": "sshd",
+        "event_type": "failed_login"
+    }
+}
