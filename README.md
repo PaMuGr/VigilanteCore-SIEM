@@ -1,6 +1,6 @@
 # 🛡️ VigilanteCore: Sentinel & SOAR Mini-SIEM
 
-**VigilanteCore** It is a real-time log monitoring system (Sentinel) with automated response capabilities (SOAR) and threat intelligence. Developed as an intensive 5-day project to understand the fundamentals of defensive cybersecurity.
+**VigilanteCore** It is a real-time log monitoring system (Sentinel) with automated response capabilities (SOAR) and threat intelligence. Developed as an intensive 3-day project to understand the fundamentals of defensive cybersecurity.
 
 ## Main features
 * **Sentinel Monitoring (Real-time):** Active log listening via live tailing.
